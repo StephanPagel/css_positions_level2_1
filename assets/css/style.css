@@ -1,0 +1,81 @@
+/* font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif; */
+/* CSS 
+.swatch_1{
+    background: #dbddc3;
+}
+.swatch_2{
+    background: #14140f;
+}
+.swatch_3{
+    background: #680507;
+}
+.swatch_4{
+    background: #b18772;
+}
+.swatch_5{
+    background: #e8652e;
+}
+.swatch_6{
+    background: #c9c1a9;
+}
+.swatch_7{
+    background: #5a5a53;
+}
+.swatch_8{
+    background: #81826c;
+} */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    position: relative;
+    background: #EEEFE3;
+}
+
+img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50vw;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    /* font-weight: 300; */
+    first-letter: capital;
+    width: 22%;
+    position: relative;
+    top: 200px;
+    left: 100px;
+}
+
+p {
+    position: relative;
+    top: 205px;
+    left: 100px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    width: 29%;
+}
+
+a {
+    padding: 10px 100px;
+    border: 1px solid #FFA915;
+    background-color: #FFA915;
+    border-radius: 20px;
+    position: relative;
+    top: 250px;
+    left: 100px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
